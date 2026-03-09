@@ -63,6 +63,8 @@ model.fit(X_train, y_train)
 y_pred = model.predict(X_test)
 
 # Metrics
+print("NAME: MADHAN")
+print("REGNO: 212225040213")
 print("Accuracy:", accuracy_score(y_test, y_pred))
 print("\nClassification Report:\n", classification_report(y_test, y_pred))
 
@@ -77,7 +79,8 @@ plt.title("Confusion Matrix")
 plt.show()
 ```
 ## OUTPUT
-<img width="540" height="246" alt="image" src="https://github.com/user-attachments/assets/109cd533-7957-4c24-a45a-98c3ea205b2d" />
+<img width="503" height="298" alt="image" src="https://github.com/user-attachments/assets/56549c52-bf00-494d-aba4-ede2ce5ad376" />
+
 <img width="678" height="567" alt="image" src="https://github.com/user-attachments/assets/65b06147-37ab-4260-b4f9-31dbe964d366" />
 
 
